@@ -35,5 +35,5 @@ jobs:
       working-directory: ./Create a Custom VPC with Subnets
 
     - name: Apply Terraform deployment
-      run: terraform Apply -auto-approve
+      run: terraform apply -auto-approve
       working-directory: ./Create a Custom VPC with Subnets
