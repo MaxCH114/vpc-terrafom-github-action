@@ -1,3 +1,4 @@
+# terraform.tfvars file is used to set the variables in the terraform configuration file.
 region               = "us-east-1"
 project_name         = "AWS_HANDS-ON"
 vpc_cidr             = "192.168.16.0/24"

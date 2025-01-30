@@ -1,3 +1,6 @@
+# This file is used to configure the provider and backend for the terraform code.
+# The provider is the plugin that terraform uses to interact with the cloud provider.
+
 terraform {
   required_providers {
     aws = {
@@ -5,7 +8,9 @@ terraform {
       version = "~> 5.0"
     }
   }
-  //backen to s3
+
+
+  //use s3 as the backend to store the state file
   backend "s3" {
     bucket = "my-terraform-backen"
     key    = "Dev/terraform.tfstate"

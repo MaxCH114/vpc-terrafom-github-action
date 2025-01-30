@@ -1,3 +1,5 @@
+# Purpose: Define the output variables for the VPC module.
+# The output variables are used to expose the resources created by the VPC module to other modules.
 output "vpc_id" {
   value = aws_vpc.My_data_center_Cloud.id
 }
